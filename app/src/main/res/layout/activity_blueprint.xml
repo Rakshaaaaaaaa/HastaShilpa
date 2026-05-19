@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blueprint View"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingBottom="16dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Design:"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="4dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerBlueprint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnViewBlueprint"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="View Blueprint"
+            android:textSize="16sp"
+            android:backgroundTint="#1565C0"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvBlueprintName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDimensions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:background="#1565C0"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvEstimatedTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:padding="8dp"
+            android:background="#E65100"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvEstimatedCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:padding="8dp"
+            android:background="#2E7D32"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tvBlueprintMaterials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:padding="12dp"
+            android:background="#C8E6C9"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:padding="12dp"
+            android:background="#DCEDC8"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvBlueprintTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:padding="12dp"
+            android:background="#F0F4C3"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

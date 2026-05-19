@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasta-Shilpa"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Design Bridge for Artisans"
+            android:textSize="14sp"
+            android:textColor="#388E3C"
+            android:gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvTotalProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Products: 0"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:padding="8dp"
+            android:background="#2E7D32"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvTotalMaterials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Materials Logged: 0"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:padding="8dp"
+            android:background="#388E3C"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnDesignTrend"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="10dp"
+            android:text="Design Trends"
+            android:textSize="16sp"
+            android:backgroundTint="#2E7D32"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnBlueprint"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="10dp"
+            android:text="Blueprint View"
+            android:textSize="16sp"
+            android:backgroundTint="#1565C0"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnMaterialTracker"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="10dp"
+            android:text="Material Tracker"
+            android:textSize="16sp"
+            android:backgroundTint="#E65100"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnMarketplace"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="10dp"
+            android:text="Direct Marketplace"
+            android:textSize="16sp"
+            android:backgroundTint="#6A1B9A"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnPriceSuggester"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="10dp"
+            android:text="Price Suggester"
+            android:textSize="16sp"
+            android:backgroundTint="#F57F17"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>
